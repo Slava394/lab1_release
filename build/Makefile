@@ -581,6 +581,19 @@ run_all_tests/fast:
 	$(MAKE) $(MAKESILENT) -f test/CMakeFiles/run_all_tests.dir/build.make test/CMakeFiles/run_all_tests.dir/build
 .PHONY : run_all_tests/fast
 
+#=============================================================================
+# Target rules for targets named load_test
+
+# Build rule for target.
+load_test: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 load_test
+.PHONY : load_test
+
+# fast build rule for target.
+load_test/fast:
+	$(MAKE) $(MAKESILENT) -f test/CMakeFiles/load_test.dir/build.make test/CMakeFiles/load_test.dir/build
+.PHONY : load_test/fast
+
 MainWindow.o: MainWindow.cpp.o
 .PHONY : MainWindow.o
 
@@ -694,6 +707,7 @@ help:
 	@echo "... SmartPtr_autogen_timestamp_deps"
 	@echo "... run_all_tests"
 	@echo "... SmartPtr"
+	@echo "... load_test"
 	@echo "... shared_test"
 	@echo "... unique_test"
 	@echo "... weak_test"

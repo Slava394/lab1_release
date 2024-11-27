@@ -36,6 +36,7 @@
 /home/viacheslav/projects/labs_C++/lab1_release/build/test/CMakeFiles/weak_test.dir
 /home/viacheslav/projects/labs_C++/lab1_release/build/test/CMakeFiles/unique_test.dir
 /home/viacheslav/projects/labs_C++/lab1_release/build/test/CMakeFiles/run_all_tests.dir
+/home/viacheslav/projects/labs_C++/lab1_release/build/test/CMakeFiles/load_test.dir
 /home/viacheslav/projects/labs_C++/lab1_release/build/test/CMakeFiles/test.dir
 /home/viacheslav/projects/labs_C++/lab1_release/build/test/CMakeFiles/edit_cache.dir
 /home/viacheslav/projects/labs_C++/lab1_release/build/test/CMakeFiles/rebuild_cache.dir

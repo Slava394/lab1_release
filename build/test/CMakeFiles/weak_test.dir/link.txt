@@ -1,1 +1,1 @@
-/usr/bin/g++ -g CMakeFiles/weak_test.dir/weak_test.cpp.o -o weak_test 
+/usr/bin/g++ CMakeFiles/weak_test.dir/weak_test.cpp.o -o weak_test 

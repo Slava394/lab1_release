@@ -72,7 +72,7 @@ SmartPtr_autogen/timestamp: /usr/lib/qt6/libexec/moc
 SmartPtr_autogen/timestamp: /usr/lib/qt6/libexec/uic
 SmartPtr_autogen/timestamp: CMakeFiles/SmartPtr_autogen.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/viacheslav/projects/labs_C++/lab1_release/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target SmartPtr"
-	/usr/bin/cmake -E cmake_autogen /home/viacheslav/projects/labs_C++/lab1_release/build/CMakeFiles/SmartPtr_autogen.dir/AutogenInfo.json Debug
+	/usr/bin/cmake -E cmake_autogen /home/viacheslav/projects/labs_C++/lab1_release/build/CMakeFiles/SmartPtr_autogen.dir/AutogenInfo.json ""
 	/usr/bin/cmake -E touch /home/viacheslav/projects/labs_C++/lab1_release/build/SmartPtr_autogen/timestamp
 
 SmartPtr_autogen: CMakeFiles/SmartPtr_autogen

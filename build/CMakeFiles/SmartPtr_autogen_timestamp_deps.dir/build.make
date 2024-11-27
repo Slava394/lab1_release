@@ -67,8 +67,8 @@ include CMakeFiles/SmartPtr_autogen_timestamp_deps.dir/compiler_depend.make
 include CMakeFiles/SmartPtr_autogen_timestamp_deps.dir/progress.make
 
 CMakeFiles/SmartPtr_autogen_timestamp_deps: /usr/lib/qt6/libexec/uic
-CMakeFiles/SmartPtr_autogen_timestamp_deps: /usr/lib/qt6/libexec/moc
 CMakeFiles/SmartPtr_autogen_timestamp_deps: /usr/lib/x86_64-linux-gnu/libQt6Widgets.so.6.4.2
+CMakeFiles/SmartPtr_autogen_timestamp_deps: /usr/lib/qt6/libexec/moc
 
 SmartPtr_autogen_timestamp_deps: CMakeFiles/SmartPtr_autogen_timestamp_deps
 SmartPtr_autogen_timestamp_deps: CMakeFiles/SmartPtr_autogen_timestamp_deps.dir/build.make

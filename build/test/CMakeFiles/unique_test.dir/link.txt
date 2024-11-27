@@ -1,1 +1,1 @@
-/usr/bin/g++ -g CMakeFiles/unique_test.dir/unique_test.cpp.o -o unique_test 
+/usr/bin/g++ CMakeFiles/unique_test.dir/unique_test.cpp.o -o unique_test 

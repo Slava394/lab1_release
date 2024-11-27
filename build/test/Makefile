@@ -182,6 +182,44 @@ run_all_tests/fast:
 	cd /home/viacheslav/projects/labs_C++/lab1_release/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/run_all_tests.dir/build.make test/CMakeFiles/run_all_tests.dir/build
 .PHONY : run_all_tests/fast
 
+# Convenience name for target.
+test/CMakeFiles/load_test.dir/rule:
+	cd /home/viacheslav/projects/labs_C++/lab1_release/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/CMakeFiles/load_test.dir/rule
+.PHONY : test/CMakeFiles/load_test.dir/rule
+
+# Convenience name for target.
+load_test: test/CMakeFiles/load_test.dir/rule
+.PHONY : load_test
+
+# fast build rule for target.
+load_test/fast:
+	cd /home/viacheslav/projects/labs_C++/lab1_release/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/load_test.dir/build.make test/CMakeFiles/load_test.dir/build
+.PHONY : load_test/fast
+
+load_test/load_test.o: load_test/load_test.cpp.o
+.PHONY : load_test/load_test.o
+
+# target to build an object file
+load_test/load_test.cpp.o:
+	cd /home/viacheslav/projects/labs_C++/lab1_release/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/load_test.dir/build.make test/CMakeFiles/load_test.dir/load_test/load_test.cpp.o
+.PHONY : load_test/load_test.cpp.o
+
+load_test/load_test.i: load_test/load_test.cpp.i
+.PHONY : load_test/load_test.i
+
+# target to preprocess a source file
+load_test/load_test.cpp.i:
+	cd /home/viacheslav/projects/labs_C++/lab1_release/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/load_test.dir/build.make test/CMakeFiles/load_test.dir/load_test/load_test.cpp.i
+.PHONY : load_test/load_test.cpp.i
+
+load_test/load_test.s: load_test/load_test.cpp.s
+.PHONY : load_test/load_test.s
+
+# target to generate assembly for a file
+load_test/load_test.cpp.s:
+	cd /home/viacheslav/projects/labs_C++/lab1_release/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/load_test.dir/build.make test/CMakeFiles/load_test.dir/load_test/load_test.cpp.s
+.PHONY : load_test/load_test.cpp.s
+
 shared_test.o: shared_test.cpp.o
 .PHONY : shared_test.o
 
@@ -264,9 +302,13 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... test"
 	@echo "... run_all_tests"
+	@echo "... load_test"
 	@echo "... shared_test"
 	@echo "... unique_test"
 	@echo "... weak_test"
+	@echo "... load_test/load_test.o"
+	@echo "... load_test/load_test.i"
+	@echo "... load_test/load_test.s"
 	@echo "... shared_test.o"
 	@echo "... shared_test.i"
 	@echo "... shared_test.s"
