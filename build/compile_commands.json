@@ -1,0 +1,38 @@
+[
+{
+  "directory": "/home/viacheslav/projects/labs_C++/lab1_release/build",
+  "command": "/usr/bin/g++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -isystem /home/viacheslav/projects/labs_C++/lab1_release/build/SmartPtr_autogen/include -isystem /usr/include/x86_64-linux-gnu/qt6/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt6 -isystem /usr/include/x86_64-linux-gnu/qt6/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt6/QtGui -g -fPIC -o CMakeFiles/SmartPtr.dir/SmartPtr_autogen/mocs_compilation.cpp.o -c /home/viacheslav/projects/labs_C++/lab1_release/build/SmartPtr_autogen/mocs_compilation.cpp",
+  "file": "/home/viacheslav/projects/labs_C++/lab1_release/build/SmartPtr_autogen/mocs_compilation.cpp",
+  "output": "CMakeFiles/SmartPtr.dir/SmartPtr_autogen/mocs_compilation.cpp.o"
+},
+{
+  "directory": "/home/viacheslav/projects/labs_C++/lab1_release/build",
+  "command": "/usr/bin/g++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -isystem /home/viacheslav/projects/labs_C++/lab1_release/build/SmartPtr_autogen/include -isystem /usr/include/x86_64-linux-gnu/qt6/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt6 -isystem /usr/include/x86_64-linux-gnu/qt6/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt6/QtGui -g -fPIC -o CMakeFiles/SmartPtr.dir/main.cpp.o -c /home/viacheslav/projects/labs_C++/lab1_release/main.cpp",
+  "file": "/home/viacheslav/projects/labs_C++/lab1_release/main.cpp",
+  "output": "CMakeFiles/SmartPtr.dir/main.cpp.o"
+},
+{
+  "directory": "/home/viacheslav/projects/labs_C++/lab1_release/build",
+  "command": "/usr/bin/g++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -isystem /home/viacheslav/projects/labs_C++/lab1_release/build/SmartPtr_autogen/include -isystem /usr/include/x86_64-linux-gnu/qt6/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt6 -isystem /usr/include/x86_64-linux-gnu/qt6/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt6/QtGui -g -fPIC -o CMakeFiles/SmartPtr.dir/MainWindow.cpp.o -c /home/viacheslav/projects/labs_C++/lab1_release/MainWindow.cpp",
+  "file": "/home/viacheslav/projects/labs_C++/lab1_release/MainWindow.cpp",
+  "output": "CMakeFiles/SmartPtr.dir/MainWindow.cpp.o"
+},
+{
+  "directory": "/home/viacheslav/projects/labs_C++/lab1_release/build/test",
+  "command": "/usr/bin/g++  -I/home/viacheslav/projects/labs_C++/lab1_release/test -g -o CMakeFiles/shared_test.dir/shared_test.cpp.o -c /home/viacheslav/projects/labs_C++/lab1_release/build/test/shared_test.cpp",
+  "file": "/home/viacheslav/projects/labs_C++/lab1_release/build/test/shared_test.cpp",
+  "output": "test/CMakeFiles/shared_test.dir/shared_test.cpp.o"
+},
+{
+  "directory": "/home/viacheslav/projects/labs_C++/lab1_release/build/test",
+  "command": "/usr/bin/g++  -I/home/viacheslav/projects/labs_C++/lab1_release/test -g -o CMakeFiles/weak_test.dir/weak_test.cpp.o -c /home/viacheslav/projects/labs_C++/lab1_release/build/test/weak_test.cpp",
+  "file": "/home/viacheslav/projects/labs_C++/lab1_release/build/test/weak_test.cpp",
+  "output": "test/CMakeFiles/weak_test.dir/weak_test.cpp.o"
+},
+{
+  "directory": "/home/viacheslav/projects/labs_C++/lab1_release/build/test",
+  "command": "/usr/bin/g++  -I/home/viacheslav/projects/labs_C++/lab1_release/test -g -o CMakeFiles/unique_test.dir/unique_test.cpp.o -c /home/viacheslav/projects/labs_C++/lab1_release/build/test/unique_test.cpp",
+  "file": "/home/viacheslav/projects/labs_C++/lab1_release/build/test/unique_test.cpp",
+  "output": "test/CMakeFiles/unique_test.dir/unique_test.cpp.o"
+}
+]
